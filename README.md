@@ -2,17 +2,17 @@
 
 ## Prérequis
 
-- Yarn
-- VueJS
+- [Yarn](https://yarnpkg.com/en/docs/install "Installer Yarn")
+- VueJS : `yarn global add vue-cli`
 
 ## Initialisation du Projet
 
-`vue init webpack .`
+Dans le répertoire souhaité : `vue init webpack .`
 
 - ? Generate project in current directory? __Yes__
 - ? Project name testyarn __NomDuProjet__
 - ? Project description __A Vue.js project__
-- ? Author __MushuLeDragon <dragon.mushu@hotmail.com>__
+- ? Author __MonNomDAuteur <email@email.com>__
 - ? Vue build __standalone__
 - ? Install vue-router? __Yes__
 - ? Use ESLint to lint your code? __Yes__
