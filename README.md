@@ -57,7 +57,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ---
 
-#### Créer une nouvelle page : 
+### Créer une nouvelle page : 
 Dans "components"
 -  MaPage.vue
 -  "scaffol" + TAB
@@ -65,7 +65,7 @@ Dans "components"
 <template>
   <div>
       <p>
-          Liste de mes matchs
+          Blablabla Voila mon texte
       </p>
   </div>
 </template>
@@ -85,12 +85,19 @@ Dans "index.js"
 - Ajouter la route de la nouvelle page :
 ```
 {
-
 	path: '/mapage',
-
 	name: 'MaPage',
 	component: Products
-
 }
 ```
+
+
+
+
+
+
+
+
+
+
 
