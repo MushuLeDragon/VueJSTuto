@@ -54,3 +54,43 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+---
+
+#### Créer une nouvelle page : 
+Dans "components"
+-  MaPage.vue
+-  "scaffol" + TAB
+```
+<template>
+  <div>
+      <p>
+          Liste de mes matchs
+      </p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'my-matches'
+}
+</script>
+
+<style>
+
+</style>
+```
+
+Dans "index.js"
+- Ajouter la route de la nouvelle page :
+```
+{
+
+	path: '/mapage',
+
+	name: 'MaPage',
+	component: Products
+
+}
+```
+
