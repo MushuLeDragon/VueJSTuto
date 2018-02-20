@@ -60,7 +60,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ### Créer une nouvelle page : 
 Dans "components"
 -  MaPage.vue
--  "scaffol" + TAB
+-  "scaffold" + TAB
 ```
 <template>
   <div>
@@ -72,7 +72,7 @@ Dans "components"
 
 <script>
 export default {
-  name: 'my-matches'
+
 }
 </script>
 
@@ -80,6 +80,7 @@ export default {
 
 </style>
 ```
+- Ajouter dans `export default` le nom de la page : `name: 'my-matches'`
 
 Dans "index.js"
 - Ajouter la route de la nouvelle page :
