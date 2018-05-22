@@ -57,10 +57,14 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ---
 
-### Créer une nouvelle page : 
-Dans "components"
--  MaPage.vue
--  "scaffold" + TAB
+### Créer une nouvelle page :
+
+#### 1. Folder components
+
+Dans "components" :
+-  Créer `MaPage.vue`
+-  Taper "scaffold" + TAB
+
 ```
 <template>
   <div>
@@ -80,11 +84,17 @@ export default {
 
 </style>
 ```
+
 - Ajouter dans `export default` le nom de la page : `name: 'my-matches'`
 
+#### 2. File index.js
 Dans "index.js"
 - Ajouter la route de la nouvelle page :
 ```
+# En haut de la page
+import MyMatches from '@/components/MyMatches'
+
+# Dans export default > routes
 {
 	path: '/mapage',
 	name: 'MaPage',
