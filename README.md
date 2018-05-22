@@ -101,14 +101,3 @@ import MyMatches from '@/components/MyMatches'
 	component: Products
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
